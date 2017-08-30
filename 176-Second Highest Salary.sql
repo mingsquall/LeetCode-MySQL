@@ -17,7 +17,9 @@
 
 # Write your MySQL query statement below
 SELECT(
-    SELECT Distinct Salary FROM Employee ORDER BY Salary DESC LIMIT 1,1)
+    SELECT Distinct Salary 
+    FROM Employee 
+    ORDER BY Salary DESC LIMIT 1,1)
     as SecondHighestSalary;
 
 # 注意必须要加Distinct，比如下列情况：
